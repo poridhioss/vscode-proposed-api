@@ -1,4 +1,4 @@
-# Level 1: Foundation APIs
+# VS Code Proposed APIs Part-1
 
 Foundation APIs are the simplest proposed APIs in Puku Editor. They provide basic infrastructure that higher-level features (chat, search, terminal) build upon. This guide covers these 5 APIs in depth, showing how Puku uses them and how to modify them in the future.
 
