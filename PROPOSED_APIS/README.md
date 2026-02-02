@@ -1,9 +1,5 @@
 # VS Code Proposed APIs
 
-A comprehensive guide to understanding what Proposed APIs are, why they exist, and how to use them in your VS Code extensions.
-
-## What Are Proposed APIs?
-
 Proposed APIs are **experimental VS Code APIs** that are not yet stable. They allow extensions to access features that are still being designed and tested by the VS Code team.
 
 When the VS Code team wants to add new functionality to the extension API, they don't immediately make it available to everyone. Instead, they first release it as a "proposed" API. This gives extension developers a chance to try out the new features and provide feedback before the API becomes permanent.
