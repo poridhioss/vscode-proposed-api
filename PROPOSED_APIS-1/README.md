@@ -836,14 +836,14 @@ When updating VS Code, proposed APIs might change. Here's how to detect and hand
 
 When a proposed API changes:
 
-- [ ] Read the new .d.ts file to understand changes
-- [ ] Update `src/chat/src/extension/vscode.proposed.*.d.ts`
-- [ ] Update version in `package.json` if required (e.g., `chatProvider@4`)
-- [ ] Search for all usages: `grep -r "apiName" src/chat/`
-- [ ] Update each usage to match the new API
-- [ ] Run TypeScript compilation to catch type errors
-- [ ] Run tests to verify functionality
-- [ ] Test manually in VS Code
+- Read the new .d.ts file to understand changes
+- Update `src/chat/src/extension/vscode.proposed.*.d.ts`
+- Update version in `package.json` if required (e.g., `chatProvider@4`)
+- Search for all usages: `grep -r "apiName" src/chat/`
+- Update each usage to match the new API
+- Run TypeScript compilation to catch type errors
+- Run tests to verify functionality
+- Test manually in VS Code
 
 ### If an API is Removed
 
