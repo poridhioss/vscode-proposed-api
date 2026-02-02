@@ -50,8 +50,6 @@ The `extensionsAny` API solves this by letting you query extensions across ALL e
 
 **Location in Puku:** `src/chat/src/extension/vscode.proposed.extensionsAny.d.ts`
 
-**GitHub Issue:** [microsoft/vscode#145307](https://github.com/microsoft/vscode/issues/145307)
-
 ```typescript
 declare module 'vscode' {
 
