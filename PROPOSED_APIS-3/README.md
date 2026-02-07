@@ -1,4 +1,4 @@
-# Level 3: Terminal APIs
+# VS Code Proposed APIs Part-3
 
 Terminal APIs provide powerful capabilities for interacting with VS Code's integrated terminal. These APIs are essential for AI-powered code editors that need to understand terminal context, capture command output, and provide intelligent command suggestions. This guide covers the 4 terminal-related APIs in depth, showing how Puku uses them and how to modify them.
 
